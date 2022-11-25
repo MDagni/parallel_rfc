@@ -38,6 +38,9 @@ form main.
                       orderkey = ''
                     ).
 
+  "Mevcut bir siparişi örnek alarak sipariş verilerini oluştur.
+  "Örnek bulmak için SE16H işlem kodunda WB2_V_VBAK_VBAP2 tablosunu VBELN'e göre gruplayarak
+  "kullanabilirsiniz.
   select single
          auart as doc_type,
          vkorg as sales_org,
