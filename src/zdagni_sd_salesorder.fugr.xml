@@ -25,7 +25,7 @@
       </RSIMP>
       <RSIMP>
        <PARAMETER>SERVER_GROUP</PARAMETER>
-       <DEFAULT>&apos;PARALLEL_RFC&apos;</DEFAULT>
+       <DEFAULT>&apos;parallel_generators&apos;</DEFAULT>
        <OPTIONAL>X</OPTIONAL>
        <TYP>RZLLI_APCL</TYP>
       </RSIMP>

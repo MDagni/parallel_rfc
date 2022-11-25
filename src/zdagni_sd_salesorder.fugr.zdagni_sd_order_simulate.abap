@@ -1,14 +1,14 @@
-function zdagni_sd_order_simulate.
+FUNCTION ZDAGNI_SD_ORDER_SIMULATE.
 *"----------------------------------------------------------------------
 *"*"Local Interface:
 *"  IMPORTING
 *"     VALUE(DISABLE_CREDIT_CHECK) TYPE  XFELD OPTIONAL
 *"     VALUE(DISABLE_PARALLEL) TYPE  XFELD OPTIONAL
-*"     VALUE(SERVER_GROUP) TYPE  RZLLI_APCL DEFAULT 'PARALLEL_RFC'
+*"     VALUE(SERVER_GROUP) TYPE  RZLLI_APCL DEFAULT
+*"       'parallel_generators'
 *"  CHANGING
 *"     REFERENCE(ORDERS) TYPE  ZDAGNI_SD_ORDER_SIMULATE_TAB
 *"----------------------------------------------------------------------
-
 * ORDERS tablosundaki her bir satır için BAPI_SALESORDER_SIMULATE fonksiyonu paralel olarak
 * çağrılır. ORDERKEY alanına geri dönen değerleri ayrıştırabilmek için istediğiniz değeri
 * koyabilirsiniz, bu değerler eşsiz olmalıdır.
